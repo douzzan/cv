@@ -1,0 +1,239 @@
+/*
+  Styler for cv website
+  margin, border, padding
+  font-family: 'New Rocker', cursive;
+  font-family: 'New Tegomin', serif;
+  font-family: 'Pathway Gothic One', sans-serif;
+*/
+/**************** Tag selector ********************/
+body {
+  background-color: black;
+  margin: 0;
+  border: 0;
+}
+
+img {
+  background-image: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.top {
+  position: relative;
+  background-color: black;
+}
+
+.deathstar {
+  width: 100%;
+}
+.xwings {
+  position: absolute;
+  bottom: 50%;
+  left: 15%;
+  width: 15%;
+}
+
+.header {
+  margin-top: 0;
+  position: absolute;
+  height: 15%;
+  top: 10%;
+  left: 15%;
+}
+
+.headerfont {
+  display: inline-block;
+  color: #135ca8;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.headerimage {
+  display: inline-block;
+  height: 25%;
+  opacity: 0;
+}
+
+.headerimage:hover {
+    opacity: 1;
+}
+
+.titles {
+  color: #1b5eb3;
+  font-family: 'New Tegomin', serif;
+}
+.Skills {
+  font-family: 'Pathway Gothic One', sans-serif;
+  position: absolute;
+  width: 25%;
+  height: 15%;
+  bottom: 5%;
+  left: 15%;
+  color: #599cda;
+}
+
+.Education {
+  font-family: 'Pathway Gothic One', sans-serif;
+  position: absolute;
+  width: 25%;
+  height: 15%;
+  bottom: 5%;
+  right: 15%;
+  color: #599cda;
+}
+.linkers{
+  color: #599cda;
+}
+
+
+.topHR {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #599cda;
+  border-width: 5px;
+  width: 4%;
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+}
+
+.topHR:hover {
+  border-color: #968db1;
+  border-width: 6px;
+  width: 6%;
+  position: absolute;
+  bottom: 0;
+  left: 47%;
+}
+
+.middle {
+  background-color: #011127;
+  position: relative;
+}
+
+.twinsun {
+  width: 100%;
+}
+
+.PE {
+  position: absolute;
+  width: 80%;
+  height: 15%;
+  top: 5%;
+  left: 10%;
+  color: #f1d8f6;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+.PEhead {
+  color: #857a90;
+  font-family: 'New Tegomin', serif;
+}
+.PEtitle {
+  font-family: 'New Tegomin', serif;
+  position: absolute;
+  width: 50%;
+  height: 5%;
+  top: 0;
+  left: 10%;
+  color: #8c7d84;
+}
+
+.vivoLink {
+  color: #f1d8f6;
+}
+.vivoLink:hover {
+  color: #8c7d84;
+}
+
+.call {
+opacity: 0;
+  position: absolute;
+  bottom: 40%;
+  width: 14%;
+  left: 43%;
+  color: black;
+}
+.call:hover {
+  opacity: 1;
+  position: absolute;
+  bottom: 40%;
+  width: 14%;
+  left: 43%;
+  color: gold;
+  font-family: 'New Rocker', cursive;
+}
+
+.counsil {
+  width: 100%;
+}
+
+.contactform {
+position: absolute;
+width: 40%;
+left: 30%;
+bottom: 45%;
+color: #e19974;
+font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.contactinput {
+  background-color: #e9b97e;
+  font-family: 'New Tegomin', serif;
+}
+
+.contact {
+  position: absolute;
+  bottom: 10%;
+  left: 43%;
+  font-family: 'New Rocker', cursive;
+
+   background: #f1d8f6;
+   background-image: -webkit-linear-gradient(top, #f1d8f6, #4d4a6f);
+   background-image: -moz-linear-gradient(top, #f1d8f6, #4d4a6f);
+   background-image: -ms-linear-gradient(top, #f1d8f6, #4d4a6f);
+   background-image: -o-linear-gradient(top, #f1d8f6, #4d4a6f);
+   background-image: -webkit-gradient(to bottom, #f1d8f6, #4d4a6f);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #f1d8f6 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact:hover {
+   border: solid #f1d8f6 1px;
+   background: #4d4a6f;
+   background-image: -webkit-linear-gradient(top, #4d4a6f, #f1d8f6);
+   background-image: -moz-linear-gradient(top, #4d4a6f, #f1d8f6);
+   background-image: -ms-linear-gradient(top, #4d4a6f, #f1d8f6);
+   background-image: -o-linear-gradient(top, #4d4a6f, #f1d8f6);
+   background-image: -webkit-gradient(to bottom, #4d4a6f, #f1d8f6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
